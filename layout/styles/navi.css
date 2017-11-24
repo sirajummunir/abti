@@ -1,0 +1,33 @@
+#topnav{height:35px; overflow:initial;}
+#topnav ul{display:block; width:100%; height:35px; margin:0; padding:0; list-style:none;}
+#topnav ul li.active ul{top:35px; left:0; width:100%; height:10px;}
+#topnav ul li a:link, #topnav ul li a:visited{display:block; height:25px; padding:10px 15px 0 15px; color:#333333; background-color:#E5E2C9;}
+#topnav ul ul li a:link, #topnav ul ul li a:visited{margin:13px 15px 0 0; padding:0 16px 0 0; color:#FFFFFF; background-color:#591434; border-right:1px solid #FFFFFF;}
+#topnav ul li.active a, #topnav ul li a:hover{color:#FFFFFF; background-color:#591434;}
+
+/* ----------------------------------------------Column Navigation------------------------------------- */
+
+li.dropdown {
+    display: inline-block;
+	}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+	}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	}
